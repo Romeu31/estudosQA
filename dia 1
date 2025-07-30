@@ -1,0 +1,43 @@
+Primeiro dia nos estudos de JavaScript! :)    30/07
+Exercicios do dia:
+
+alert('Primeiro Alert!');
+
+Calculos:
+2 + 2
+2 + 3 -3
+Math.round((2095 + 799) * 0.1) / 100 = 2.89
+Math.round fazendo o arredondamento, a resposta sem ele é 2.894
+
+Calculo celsius 25 para Fahrenheit 77
+(25 * 9/5) + 32 
+O contrario, F (86) para C (30)
+(86 - 32) * 5 / 9
+
+typeof serve para saber
+
+Concatenar Letras e numeros
+'$' + (2095 + 799) / 100   , para ter o resultado correto.
+
+Criando partes de um website da Amazon
+'Items (' + (1 + 1) + '): $' + (2095 + 799) / 100
+Alert
+alert('Items (' + (1 + 1) + '): $' + (2095 + 799) / 100');
+
+Escape caracters
+"I'm Learning JS"
+'I\'m learning JS
+alert('somen\text'); quebra de texto
+
+interpolation, mais limpo
+`Items (${1 + 1}): $${(2095 + 799) / 100}`
+`O valor total do cafe e pao é: ${5 + 3}`
+alert(`Quero viajar, o valor total é de $${400 + 300}`)
+`some
+text`
+Exemplo completo, pulando linha e com calculos
+alert(`O total do seu café, é de $${(599 + 295) / 100},\nObrigado e volte novamente!`)
+Total de dois itens, duas bolas 20.95 cada e duas camisas 7.99 cada antes das taxas
+`Items (${2 + 2}): Total before tax: $${((2095 * 2) + 499 + (799 * 2) + 499) / 100}`
+Estimativa taxas 10 % com numero arredondamento
+`Estimated tax (10%): $${Math.round(67.86 * 0.1)}`
